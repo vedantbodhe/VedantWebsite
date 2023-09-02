@@ -1,124 +1,151 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Vedant Bodhe</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-.bgimg {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url('img/IMG_5398.jpg');
-  min-height: 100%;
-}
-</style>
+  <title>Vedant Bodhe</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Montserrat", sans-serif
+    }
+
+    .w3-row-padding img {
+      margin-bottom: 12px
+    }
+
+    .bgimg {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url('img/IMG_5398.jpg');
+      min-height: 100%;
+    }
+  </style>
 </head>
+
 <body>
 
-<!-- Sidebar with image -->
-<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
-  <div class="bgimg"></div>
-</nav>
+  <!-- Sidebar with image -->
+  <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+    <div class="bgimg"></div>
+  </nav>
 
-<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
-<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
-  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
-    <i class="fa fa-remove"></i>
-  </a>
-  <div class="w3-bar-block w3-center">
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
-    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
-  </div>
-</nav>
+  <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+  <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2"
+    id="mySidebar">
+    <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright"
+      style="padding:0 12px;">
+      <i class="fa fa-remove"></i>
+    </a>
+    <div class="w3-bar-block w3-center">
+      <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+      <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+      <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+    </div>
+  </nav>
 
-<!-- Page Content -->
-<div class="w3-main w3-padding-large" style="margin-left:40%">
+  <!-- Page Content -->
+  <div class="w3-main w3-padding-large" style="margin-left:40%">
 
-  <!-- Menu icon to open sidebar -->
-  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+    <!-- Menu icon to open sidebar -->
+    <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;"
+      onclick="openNav()"><i class="fa fa-bars"></i></span>
 
-  <!-- Header --> 
-  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
-    <h1 class="w3-jumbo"><b>Vedant Bodhe</b></h1>
-    <p>Computer Science Student and AI Enthusiast</p>
-    <img src="img/IMG_5398.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
-    <img src="img/IMG_5398.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
-    <a href="CV/Vedant Vinayak Bodhe Lebenslauf CV.pdf" download>
-      <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
-        <i class="fa fa-download"></i> Download Resume/CV
-      </button>
-    </a><br>
-    <a href="https://www.siipl.co" target="_blank" >
-      <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
-        <i class="fa fa-download"></i> Check my family company's Website (which I made as well)
-      </button>
-    </a>   
-  </header>
+    <!-- Header -->
+    <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+      <h1 class="w3-jumbo"><b>Vedant Bodhe</b></h1>
+      <p>Computer Science Student and AI Enthusiast</p>
+      <img src="img/IMG_5398.jpg" class="w3-image w3-hide-large w3-hide-small w3-round"
+        style="display:block;width:60%;margin:auto;">
+      <img src="img/IMG_5398.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+      <a href="CV/Vedant Vinayak Bodhe Lebenslauf CV.pdf" download>
+        <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+          <i class="fa fa-download"></i> Download Resume/CV
+        </button>
+      </a><br>
+      <a href="https://www.siipl.co" target="_blank">
+        <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+          <i class="fa fa-download"></i> Check my family company's Website (which I made as well)
+        </button>
+      </a>
+    </header>
 
-  <!-- Portfolio Section -->
-  <div class="w3-padding-32 w3-content" id="portfolio">
-    <h2 class="w3-text-grey">My Photos</h2>
-    <hr class="w3-opacity">
+    <!-- Portfolio Section -->
+    <div class="w3-padding-32 w3-content" id="portfolio">
+      <h2 class="w3-text-grey">My Photos</h2>
+      <hr class="w3-opacity">
 
-    <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <img src="img/IMG_0105.jpg" style="width:100%">
-        <img src="img/79F83335-4609-4B4E-B186-887F4E41050A.jpg" style="width:100%">
-        <img src="img/330a0cdf-ff5e-4316-b0f5-2cb8ab9c5ac8.JPG" style="width:100%">
+      <!-- Grid for photos -->
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half">
+          <img src="img/IMG_0105.jpg" style="width:100%">
+          <img src="img/79F83335-4609-4B4E-B186-887F4E41050A.jpg" style="width:100%">
+          <img src="img/330a0cdf-ff5e-4316-b0f5-2cb8ab9c5ac8.JPG" style="width:100%">
+        </div>
+
+        <div class="w3-half">
+          <img src="img/20220806_170426571_iOS.jpg" style="width:100%">
+          <img src="img/8cb53469-787d-4951-b8f5-22edbb87d6c8.jpg" style="width:100%">
+          <img src="img/IMG_1643.JPG" style="width:100%">
+          <img src="img/20220806_172437000_iOS 1.JPG" style="width:100%">
+        </div>
+        <!-- End photo grid -->
       </div>
+      <!-- End Portfolio Section -->
+    </div>
 
-      <div class="w3-half">
-        <img src="img/20220806_170426571_iOS.jpg" style="width:100%">
-        <img src="img/8cb53469-787d-4951-b8f5-22edbb87d6c8.jpg" style="width:100%">
-        <img src="img/IMG_1643.JPG" style="width:100%">
-        <img src="img/20220806_172437000_iOS 1.JPG" style="width:100%">
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+      <h2>About</h2>
+      <hr class="w3-opacity">
+      <p>My fascination with technology spans a broad spectrum, from AI, Neural Networks, Machine Learning to Web and
+        Software Development. But what really gets my pulse racing is the potential to intertwine these tech interests
+        with a sustainable future. I am acutely aware of the collective responsibility we hold towards our planet and am
+        driven to make a difference.
+
+        My goal is to address grand global challenges, such as health, economics, carbon footprint reduction, and
+        environmental preservation, using AI and computing as my catalyst. This isn't just about personal achievement;
+        it's about making an impact that extends far beyond myself.
+      </p>
+      <p>Of course, none of this would be possible without the love and support of my family, friends, and my loving
+        partner. They've been my rock, my source of inspiration, and my motivation throughout this journey. To me, they
+        are the true heroes in my story.
+
+        In this grand adventure of life, learning, and innovation, I'm always looking for fellow travelers. If my
+        journey resonates with you, or if you're interested in what I'm doing, feel free to reach out. I'd love to
+        connect!
+      </p>
+
+      <h3 class="w3-padding-16">My Programming Skills</h3>
+      <p class="w3-wide">Python</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">95%</div>
       </div>
-    <!-- End photo grid -->
-    </div>
-  <!-- End Portfolio Section -->
-  </div>
+      <p class="w3-wide">Javascript</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:90%">90%</div>
+      </div>
+      <p class="w3-wide">HTML & CSS</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:90%">90%</div>
+      </div>
+      <p class="w3-wide">Java</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:60%">60%</div>
+      </div><br>
 
-  <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
-    <h2>About</h2>
-    <hr class="w3-opacity">
-    <p>My fascination with technology spans a broad spectrum, from AI, Neural Networks, Machine Learning to Web and Software Development. But what really gets my pulse racing is the potential to intertwine these tech interests with a sustainable future. I am acutely aware of the collective responsibility we hold towards our planet and am driven to make a difference.
-
-      My goal is to address grand global challenges, such as health, economics, carbon footprint reduction, and environmental preservation, using AI and computing as my catalyst. This isn't just about personal achievement; it's about making an impact that extends far beyond myself.
-    </p>
-    <p>Of course, none of this would be possible without the love and support of my family, friends, and my loving partner. They've been my rock, my source of inspiration, and my motivation throughout this journey. To me, they are the true heroes in my story.
-
-      In this grand adventure of life, learning, and innovation, I'm always looking for fellow travelers. If my journey resonates with you, or if you're interested in what I'm doing, feel free to reach out. I'd love to connect!
-    </p>
-  
-    <h3 class="w3-padding-16">My Programming Skills</h3>
-    <p class="w3-wide">Python</p>
-    <div class="w3-light-grey">
-      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">95%</div>
-    </div>
-    <p class="w3-wide">Javascript</p>
-    <div class="w3-light-grey">
-      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:90%">90%</div>
-    </div>
-    <p class="w3-wide">HTML & CSS</p>
-    <div class="w3-light-grey">
-      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:90%">90%</div>
-    </div>
-    <p class="w3-wide">Java</p>
-    <div class="w3-light-grey">
-      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:60%">60%</div>
-    </div><br>
-
-    <!-- <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+      <!-- <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
       <div class="w3-quarter w3-section">
         <span class="w3-xlarge">14+</span><br>
         Partners
@@ -137,34 +164,35 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       </div>
     </div> -->
 
-    <a href="CV/Vedant Vinayak Bodhe Lebenslauf CV.pdf" download>
-      <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
-        <i class="fa fa-download"></i> Download Resume/CV
-      </button>
-    </a>   
+      <a href="CV/Vedant Vinayak Bodhe Lebenslauf CV.pdf" download>
+        <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+          <i class="fa fa-download"></i> Download Resume/CV
+        </button>
+      </a>
 
-    <a href="https://www.siipl.co" target="_blank">
-      <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
-        <i class="fa fa-download"></i> Check my family company's Website (which I made as well)
-      </button>
-    </a>   
+      <a href="https://www.siipl.co" target="_blank">
+        <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+          <i class="fa fa-download"></i> Check my family company's Website (which I made as well)
+        </button>
+      </a>
 
-    <!-- Interests -->
-    <h3 class="w3-padding-24">My Interests</h3>
-    <!-- <img src="/w3images/avatar_smoke.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"> -->
-    <p><span class="w3-large w3-text-black w3-margin-right">Machine Learning and Neural Networks</span> Lorem Ipsum</p>
-    <p>Lorem Ipsum</p><br>
-   
-    <!-- <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"> -->
-    <p><span class="w3-large w3-text-black w3-margin-right">Web Developement</span> Lorem Ipsum</p>
-    <p>Lorem Ipsum</p><br>
-    
-    <!-- <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"> -->
-    <p><span class="w3-large w3-text-black w3-margin-right">Software Developement</span> Lorem Ipsum</p>
-    <p>Lorem Ipsum</p><br>
-    
-    <!-- Grid for pricing tables -->
-    <!-- <h3 class="w3-padding-16">My Price</h3>
+      <!-- Interests -->
+      <h3 class="w3-padding-24">My Interests</h3>
+      <!-- <img src="/w3images/avatar_smoke.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"> -->
+      <p><span class="w3-large w3-text-black w3-margin-right">Machine Learning and Neural Networks</span> Lorem Ipsum
+      </p>
+      <p>Lorem Ipsum</p><br>
+
+      <!-- <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"> -->
+      <p><span class="w3-large w3-text-black w3-margin-right">Web Developement</span> Lorem Ipsum</p>
+      <p>Lorem Ipsum</p><br>
+
+      <!-- <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"> -->
+      <p><span class="w3-large w3-text-black w3-margin-right">Software Developement</span> Lorem Ipsum</p>
+      <p>Lorem Ipsum</p><br>
+
+      <!-- Grid for pricing tables -->
+      <!-- <h3 class="w3-padding-16">My Price</h3>
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half w3-margin-bottom">
         <ul class="w3-ul w3-center w3-card w3-hover-shadow">
@@ -199,61 +227,64 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
           </li>
         </ul>
       </div> -->
-    <!-- End Grid/Pricing tables -->
-    <!-- </div> -->
-    
-  <!-- End About Section -->
-  <!-- </div> -->
+      <!-- End Grid/Pricing tables -->
+      <!-- </div> -->
 
-  <!-- Contact Section -->
-  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
-    <h2>Contact Me</h2>
-    <hr class="w3-opacity">
+      <!-- End About Section -->
+      <!-- </div> -->
 
-    <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Fulda, Hessen, Germany</p>
-      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +49 0174 7788935</p>
-      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: vedantbodhe@gmail.com</p>
+      <!-- Contact Section -->
+      <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+        <h2>Contact Me</h2>
+        <hr class="w3-opacity">
+
+        <div class="w3-section">
+          <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Fulda, Hessen, Germany</p>
+          <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +49 0174 7788935</p>
+          <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: vedantbodhe@gmail.com</p>
+        </div>
+
+        <!-- Image of location/map -->
+        <!-- <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin:32px 0"> -->
+
+        <p>Lets get in touch. Send me a message:</p>
+        <form action="https://formspree.io/f/mvojrabz" method="POST" target="_blank">
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject">
+          </p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message">
+          </p>
+          <p>
+            <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+              <i class="fa fa-paper-plane"></i> SEND MESSAGE
+            </button>
+          </p>
+        </form>
+        <!-- End Contact Section -->
+      </div>
+
+      <!-- Footer -->
+      <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+        <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i> -->
+        <a href="https://www.instagram.com/aufgehts2213/" target="_blank">
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+        </a>
+        <!-- <i class="fa fa-snapchat w3-hover-opacity"></i> -->
+        <!-- <i class="fa fa-pinterest-p w3-hover-opacity"></i> -->
+        <!-- <i class="fa fa-twitter w3-hover-opacity"></i> -->
+        <a href="https://www.linkedin.com/in/vedant-bodhe/" target="_blank">
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </a>
+        <p class="w3-medium">Website made by .......obviously me?</p>
+        <!-- End footer -->
+      </footer>
+
+      <!-- END PAGE CONTENT -->
     </div>
-    
-    <!-- Image of location/map -->
-    <!-- <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin:32px 0"> -->
-   
-    <p>Lets get in touch. Send me a message:</p>
-    <form action="contact form/contact.php" target="_blank" method="post">
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
-      <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
-  <!-- End Contact Section -->
-  </div>  
-  
-  <!-- Footer -->
-  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
-    <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i> -->
-    <a href="https://www.instagram.com/aufgehts2213/" target="_blank">
-      <i class="fa fa-instagram w3-hover-opacity"></i>
-  </a>
-    <!-- <i class="fa fa-snapchat w3-hover-opacity"></i> -->
-    <!-- <i class="fa fa-pinterest-p w3-hover-opacity"></i> -->
-    <!-- <i class="fa fa-twitter w3-hover-opacity"></i> -->
-    <a href="https://www.linkedin.com/in/vedant-bodhe/" target="_blank">
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </a>
-  <p class="w3-medium">Website made by .......obviously me?</p>
-  <!-- End footer -->
-  </footer>
-  
-<!-- END PAGE CONTENT -->
-</div>
 
-<script src="js/index.js"></script>
+    <script src="js/index.js"></script>
 
 </body>
+
 </html>
